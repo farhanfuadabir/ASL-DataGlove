@@ -1,0 +1,38 @@
+{
+    "name": "I2Cdevlib-MPU6050", 
+    "keywords": [
+        "gyroscope", 
+        "accelerometer", 
+        "sensor", 
+        "i2cdevlib", 
+        "i2c"
+    ], 
+    "description": "The MPU6050 combines a 3-axis gyroscope and a 3-axis accelerometer on the same silicon die together with an onboard Digital Motion Processor(DMP) which processes complex 6-axis MotionFusion algorithms", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/jrowberg/i2cdevlib.git"
+    }, 
+    "dependencies": {
+        "name": "I2Cdevlib-Core", 
+        "frameworks": "arduino"
+    }, 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "export": {
+        "include": "Arduino/MPU6050"
+    }, 
+    "version": "1265c2de5b", 
+    "authors": [
+        {
+            "email": "jeff@rowberg.net", 
+            "url": "https://github.com/jrowberg", 
+            "maintainer": false, 
+            "name": "Jeff Rowberg"
+        }
+    ], 
+    "id": 107
+}
